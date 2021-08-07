@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PageContainer /> should match snapshot 1`] = `
+.c0 {
+  min-width: 250px;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  box-sizing: content-box;
+}
+
+<div
+  class="c0"
+/>
+`;

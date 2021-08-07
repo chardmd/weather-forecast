@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import styled from 'styled-components/macro';
-import { PageContainer } from '../../common/PageContainer';
+import PageContainer from '../../common/PageContainer';
 import Footer from '../../common/Footer';
 import CitySearch from './features/CitySearch';
 import WeatherForecast from './features/WeatherForecast';
