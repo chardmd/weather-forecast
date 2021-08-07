@@ -26,7 +26,7 @@ const Wrapper = styled.div`
 `;
 
 const Link = styled.a`
-  color: ${p => p.theme.highlight};
+  color: ${p => p.theme.highLight};
 `;
 
 const Span1 = styled.span`
