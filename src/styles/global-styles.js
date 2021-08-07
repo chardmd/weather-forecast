@@ -9,13 +9,12 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font-family: 'Grandstander', Helvetica, Arial, sans-serif;
-    padding-top: 4rem;
+    font-family: 'Work Sans', sans-serif;
     background-color: ${p => p.theme.background};
   }
 
   body.fontLoaded {
-    font-family: 'Grandstander', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Work Sans', sans-serif;
   }
   
   p,

@@ -12,8 +12,8 @@ import { configureAppStore } from './store/configureStore';
 import { ThemeProvider } from './styles/theme/ThemeProvider';
 import reportWebVitals from './reportWebVitals';
 
-// Observe the font in index.html (Grandstander)
-const openSansObserver = new FontFaceObserver('Grandstander', {});
+// Observe the font in index.html (Work Sans)
+const openSansObserver = new FontFaceObserver('Work+Sans', {});
 openSansObserver.load().then(() => {
   document.body.classList.add('fontLoaded');
 });

@@ -1,6 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 import styled from 'styled-components/macro';
 import { PageContainer } from '../../common/PageContainer';
+import Footer from '../../common/Footer';
 import CitySearch from './features/CitySearch';
 import WeatherForecast from './features/WeatherForecast';
 
@@ -11,7 +12,7 @@ export const Home = () => {
         <title>Richard's Weather App</title>
         <meta name="description" content="Richard's Weather App" />
       </Helmet>
-      <div>
+      <Container>
         <PageContainer>
           <Title as="h2">Richard's Weather Forecast App</Title>
           <Wrapper>
@@ -29,7 +30,8 @@ export const Home = () => {
             <WeatherForecast />
           </Feature>
         </PageContainer>
-      </div>
+      </Container>
+      <Footer>Test</Footer>
     </>
   );
 };
@@ -65,4 +67,8 @@ const Wrapper = styled.p`
   strong {
     color: ${p => p.theme.text};
   }
+`;
+
+const Container = styled.div`
+  margin-bottom: 2rem;
 `;

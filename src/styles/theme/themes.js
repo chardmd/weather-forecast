@@ -6,6 +6,7 @@ const mongoInspiredTheme = {
   backgroundVariant: '#E8E7D5',
   border: '#3F3E42',
   borderLight: '#C1BEBC',
+  highLight: '#1DA1F2',
 };
 
 export const themes = {
