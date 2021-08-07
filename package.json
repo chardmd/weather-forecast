@@ -1,0 +1,93 @@
+{
+  "name": "weather-forecast",
+  "version": "1.0.0",
+  "author": "Richard Dimalanta",
+  "private": false,
+  "dependencies": {
+    "@reduxjs/toolkit": "1.6.0",
+    "@testing-library/jest-dom": "5.14.1",
+    "@testing-library/react": "12.0.0",
+    "cross-env": "7.0.3",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "3.4.0",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "fontfaceobserver": "2.1.0",
+    "husky": "7.0.0",
+    "jest-styled-components": "7.0.4",
+    "lint-staged": "10.3.0",
+    "prettier": "2.3.2",
+    "react": "17.0.2",
+    "react-app-polyfill": "2.0.0",
+    "react-dom": "17.0.2",
+    "react-helmet-async": "1.0.9",
+    "react-redux": "7.2.4",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "4.0.3",
+    "react-test-renderer": "17.0.2",
+    "redux-injectors": "1.3.0",
+    "redux-saga": "1.1.3",
+    "sanitize.css": "12.0.1",
+    "serve": "12.0.0",
+    "styled-components": "5.3.0",
+    "stylelint": "13.13.1",
+    "stylelint-config-recommended": "5.0.0",
+    "stylelint-config-styled-components": "0.1.1",
+    "stylelint-processor-styled-components": "1.10.0",
+    "web-vitals": "2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start:prod": "yarn run build && serve -s build",
+    "eslint": "eslint --ext js,jsx",
+    "lint": "yarn run eslint src",
+    "lint:fix": "yarn run eslint --fix src",
+    "lint:css": "stylelint src/**/*.css",
+    "prettify": "prettier --write"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "engines": {
+    "yarn": ">=1.22.10",
+    "node": ">=14.0.0"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "yarn run eslint --fix"
+    ],
+    "*.{md,json}": [
+      "prettier --write"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!src/**/*/*.d.js",
+      "!src/**/*/Loadable.{js,jsx}",
+      "!src/index.jsx"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 90,
+        "functions": 90,
+        "lines": 90,
+        "statements": 90
+      }
+    }
+  }
+}
