@@ -52,7 +52,7 @@ const Content = styled.div`
 
 const Title = styled.h1`
   color: ${p => p.theme.text};
-  margin: 1rem 2rem;
+  margin: 2rem;
   font-size: 32px;
   font-weight: bold;
 `;
