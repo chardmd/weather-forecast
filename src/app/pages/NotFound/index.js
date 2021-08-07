@@ -1,6 +1,6 @@
 import styled from 'styled-components/macro';
 import { Helmet } from 'react-helmet-async';
-import { RouteLink } from '../../common/RouteLink';
+import RouteLink from '../../common/RouteLink';
 
 export const NotFound = () => {
   return (

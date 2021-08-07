@@ -1,7 +1,7 @@
 import styled from 'styled-components/macro';
 import { Link as RouterLink } from 'react-router-dom';
 
-export const RouteLink = styled(RouterLink)`
+const RouteLink = styled(RouterLink)`
   color: ${p => p.theme.primary};
   text-decoration: none;
 
@@ -14,3 +14,5 @@ export const RouteLink = styled(RouterLink)`
     opacity: 0.4;
   }
 `;
+
+export default RouteLink;
