@@ -1,1 +1,1 @@
-## Richard's Weather Forecast App
+## Weather Forecast App

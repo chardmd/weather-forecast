@@ -8,10 +8,10 @@ export const App = () => {
   return (
     <BrowserRouter>
       <Helmet
-        titleTemplate="%s - Richard's Weather App"
-        defaultTitle="Richard's Weather App"
+        titleTemplate="%s - Weather Forecast App"
+        defaultTitle="Weather Forecast App"
       >
-        <meta name="description" content="A Richard's Weather App" />
+        <meta name="description" content="A Weather Forecast App" />
       </Helmet>
 
       <Switch>
