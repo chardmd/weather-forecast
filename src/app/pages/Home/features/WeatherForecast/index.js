@@ -10,7 +10,7 @@ import {
   selectError,
   selectCurrent,
 } from './slice/selectors';
-import { Loader } from '../../../../common/Loader';
+import Loader from '../../../../common/Loader';
 import { APIErrorType } from './slice/types';
 import { useWeatherForecastSlice } from './slice';
 

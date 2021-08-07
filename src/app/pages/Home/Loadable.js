@@ -2,7 +2,7 @@
  * Asynchronously loads the component for Home
  */
 import { lazyLoad } from '../../../utils/loadable';
-import { Loader } from '../../common/Loader';
+import Loader from '../../common/Loader';
 import styled from 'styled-components/macro';
 
 const LoadingWrapper = styled.div`
