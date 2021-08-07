@@ -27,7 +27,9 @@ export const Home = () => {
             </Content>
           </Feature>
           <Feature>
-            <WeatherForecast />
+            <Content>
+              <WeatherForecast />
+            </Content>
           </Feature>
         </PageContainer>
       </Container>
