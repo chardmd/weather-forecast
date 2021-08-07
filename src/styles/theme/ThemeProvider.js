@@ -4,7 +4,7 @@ import { themes } from './themes';
 
 export const ThemeProvider = props => {
   return (
-    <OriginalThemeProvider theme={themes.mongoDBTheme}>
+    <OriginalThemeProvider theme={themes.mongoInspiredTheme}>
       {props.children}
     </OriginalThemeProvider>
   );

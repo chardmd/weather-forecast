@@ -1,4 +1,4 @@
-const mongoDBTheme = {
+const mongoInspiredTheme = {
   primary: '#4DB33D',
   text: '#589636',
   textSecondary: '#3F3E42',
@@ -9,5 +9,5 @@ const mongoDBTheme = {
 };
 
 export const themes = {
-  mongoDBTheme: mongoDBTheme,
+  mongoInspiredTheme: mongoInspiredTheme,
 };

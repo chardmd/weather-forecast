@@ -1,9 +1,10 @@
 import styled from 'styled-components/macro';
 
-const Forecast = ({ date, icon, avgTemp, maxTemp, minTemp }) => {
+const Forecast = ({ date, text, icon, avgTemp, maxTemp, minTemp }) => {
   return (
     <Wrapper>
       <Date>{date}</Date>
+      <Text>{text}</Text>
       <img src={icon} alt="weather" />
       <div>Average: {avgTemp} °C</div>
       <div>Min: {minTemp} °C</div>
@@ -34,4 +35,8 @@ const Wrapper = styled.div`
 const Date = styled.div`
   flex: 1;
   padding: 0.625rem 0;
+`;
+
+const Text = styled.div`
+  flex: 1;
 `;

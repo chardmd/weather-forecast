@@ -64,6 +64,7 @@ const WeatherForecast = () => {
               <Forecast
                 key={forecast.date}
                 date={forecast.date}
+                text={forecast.day.condition.text}
                 icon={forecast.day.condition.icon}
                 avgTemp={forecast.day.avgtemp_c}
                 maxTemp={forecast.day.maxtemp_c}
