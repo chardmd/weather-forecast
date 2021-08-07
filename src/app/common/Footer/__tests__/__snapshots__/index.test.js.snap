@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> should match snapshot 1`] = `
+.c0 {
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #E8E7D5;
+  color: #589636;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-width: 250px;
+  text-align: center;
+  position: fixed;
+}
+
+.c2 {
+  color: #1DA1F2;
+}
+
+.c1 {
+  margin-right: 0.5rem;
+}
+
+.c3 {
+  margin-left: 0.5rem;
+}
+
+<div
+  class="c0"
+>
+  <span
+    class="c1"
+  >
+    Designed and Handcrafted by
+  </span>
+  <a
+    class="c2"
+    href="https://chardmd.com"
+    target="_blank"
+  >
+    Richard
+  </a>
+  <span
+    class="c3"
+  >
+    🥳
+  </span>
+</div>
+`;
