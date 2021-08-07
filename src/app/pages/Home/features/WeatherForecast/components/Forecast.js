@@ -30,6 +30,7 @@ const Wrapper = styled.div`
   }
   border: 1px solid ${p => p.theme.primary};
   margin: 3px;
+  width: 100%;
 `;
 
 const Date = styled.div`
