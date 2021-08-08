@@ -35,6 +35,8 @@ REACT_APP_API_KEY=<api key here>
 `.env.production`
 
 ```shell
+GENERATE_SOURCEMAP=false
+
 # base weather API
 REACT_APP_WEATHER_API=https://api.weatherapi.com
 
