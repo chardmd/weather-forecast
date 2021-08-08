@@ -87,7 +87,7 @@ The codebase is bootstrapped using the following tools:
 - [React Router](https://reactrouter.com)
 - [fontfaceobserver](https://github.com/bramstein/fontfaceobserver)
 
-I also used the following to configure and adopt best practices in developing react projects.
+I also used the following tools in configuring and setting up the best practices when developing react projects.
 
 - [prettier](https://prettier.io/)
 - [eslint](https://eslint.org/)
