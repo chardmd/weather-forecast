@@ -1,6 +1,6 @@
 # Weather Forecast App
 
-Easily search for the city's current and forecasted weather 🌤️
+Easily search for the city's current and forecast weather 🌤️
 
 [https://chardmd-weather.netlify.app/](https://chardmd-weather.netlify.app/)
 

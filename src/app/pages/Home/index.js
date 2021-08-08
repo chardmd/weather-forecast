@@ -17,7 +17,7 @@ export const Home = () => {
           <Title as="h2">Weather Forecast App</Title>
           <Wrapper>
             <span>
-              Easily search for the city's current and forecasted weather
+              Easily search for the city's current and forecast weather
             </span>
             <Emoji>⛅</Emoji>
           </Wrapper>
