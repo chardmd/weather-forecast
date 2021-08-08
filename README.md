@@ -26,7 +26,7 @@ EXTEND_ESLINT=true
 FAST_REFRESH=true
 
 # base weather API
-REACT_APP_WEATHER_API=http://api.weatherapi.com
+REACT_APP_WEATHER_API=https://api.weatherapi.com
 
 # weather API key
 REACT_APP_API_KEY=<api key here>
@@ -36,7 +36,7 @@ REACT_APP_API_KEY=<api key here>
 
 ```shell
 # base weather API
-REACT_APP_WEATHER_API=http://api.weatherapi.com
+REACT_APP_WEATHER_API=https://api.weatherapi.com
 
 # weather API key
 REACT_APP_API_KEY=<api key here>
