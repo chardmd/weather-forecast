@@ -60,7 +60,7 @@ Create and serve production build:
 yarn start:prod
 ```
 
-We are using [Husky](https://www.npmjs.com/package/husky), so these commands are triggered automatically when doing pre-commit in the repository.
+The project is using [Husky](https://www.npmjs.com/package/husky), so these commands are triggered automatically when doing pre-commit in the repository.
 
 ```shell
 yarn eslint --fix
