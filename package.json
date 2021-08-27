@@ -44,7 +44,7 @@
     "eslint": "eslint --ext js,jsx",
     "lint": "yarn run eslint src",
     "lint:fix": "yarn run eslint --fix src",
-    "lint:css": "stylelint src/**/*.css",
+    "lint:css": "stylelint src/**/*.js",
     "prettify": "prettier --write"
   },
   "eslintConfig": {
